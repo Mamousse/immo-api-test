@@ -5,7 +5,7 @@ import {juggler} from '@loopback/repository';
 const config = {
   name: 'immo-dataSource',
   connector: 'mongodb',
-  url: 'mongodb+srv://mamousse15_db_user:<db_password>@cluster0.oglxgtd.mongodb.net/immo-db',
+  url: 'mongodb+srv://mamousse15_db_user:<db_password>@cluster0.oglxgtd.mongodb.net/',
   // url: 'mongodb://10.20.1.68:30017', // Your MongoDB connection string
   database: 'immo-db',
   useNewUrlParser: true
