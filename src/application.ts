@@ -30,7 +30,7 @@ export class ImmoApiApplication extends BootMixin(
         cors: {
           origin: [
             'http://localhost:56111',         // Frontend local
-            'https://maxiim-immo.netlify.app/', // Frontend Netlify
+            'https://maxiim-immo.netlify.app', // Frontend Netlify
           ],
           methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
           allowedHeaders: 'Content-Type, Authorization',
